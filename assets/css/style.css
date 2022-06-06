@@ -1,0 +1,24 @@
+html {
+    background-color: beige;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.questionPart {
+display: flex;
+flex-direction: column;
+}
+
+header {
+    display: flex   
+    
+}
+
+.Mhide,
+h2 {
+display: none;
+
+}
