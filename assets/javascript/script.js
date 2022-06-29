@@ -1,7 +1,8 @@
+// Set time variable
 var timeEl = document.getElementById("Timeleft");
 var Timeleftcount=30;
 
-
+// Set time function
 function quizstart(){
     console.log("Quiz has started");
     startButton.setAttribute('style','display: none');
@@ -10,8 +11,6 @@ function quizstart(){
     console.log(Timeleftcount);
     setTime();
     showQuestion();
-    // questionListener();
-
 }
 
 function setTime() {
@@ -24,8 +23,6 @@ function setTime() {
         }
     },1000);
 }
-
-
 
 
 
